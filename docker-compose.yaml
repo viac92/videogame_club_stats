@@ -1,0 +1,9 @@
+services:
+  web-app:
+    build: ./web_app
+    container_name: web-app
+    ports:
+      - 5173:5173
+    volumes:
+      - ./web_app:/code/web_app
+    tty: true
