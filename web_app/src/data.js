@@ -1,0 +1,141 @@
+const playerTotalPresenceData = {
+    labels: [
+        'Viac',
+        'Rose',
+        'Forn',
+        'Ale',
+        'Nixon',
+        'Olly'
+    ],
+    datasets: [{
+        label: 'Presenze',
+        data: [
+            27,
+            22,
+            22,
+            18,
+            13,
+            5
+        ],
+        borderWidth: 3
+    }]
+};
+
+const playedGamesData = {
+    labels: [
+        'Halo Infinite',
+        'Valheim',
+        'The Finals',
+        'Deep Rock Galactic',
+        'Lego Fortnite',
+        'PlateUp!',
+        'Moving Out 2',
+        'Baldur\'s Gate 3',
+        'Chivalry 2',
+        'Clone Drone in the Danger Zone',
+        'Dead by Daylight',
+        'Helldivers 2',
+        'Human Fall Flat',
+        'Palworld',
+        'Project Zomboid',
+        'Warhammer 40k: Darktide',
+    ],
+    datasets: [{
+        label: 'Giocate',
+        data: [4, 4, 3, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        hoverOffset: 4
+    }]
+};
+
+const labelsPlayDays = [
+    '18/10/2023', 
+    '01/11/2023', 
+    '08/11/2023', 
+    '15/11/2023', 
+    '22/11/2023', 
+    '29/11/2023', 
+    '6/12/2023', 
+    '27/12/2023', 
+    '3/1/2024', 
+    '10/1/2024', 
+    '17/1/2024', 
+    '24/1/2024', 
+    '31/1/2024', 
+    '7/2/2024', 
+    '21/2/2024', 
+    '28/2/2024',
+    '6/3/2024',
+    '13/3/2024',
+    '20/3/2024',
+    '3/4/2024',
+    '8/5/2024',
+    '15/5/2024',
+    '22/5/2024',
+    '29/5//2024',
+    '05/06/2024',
+    '12/06/2024',
+    '19/06/2024',
+    '26/06/2024',
+];
+
+const playersPresenceByDayData = {
+    labels: labelsPlayDays,
+    datasets: [{
+        label: 'Presenza Settimanale',
+        data: [
+            5, 
+            5, 
+            4,
+            2,
+            5,
+            4,
+            5,
+            2,
+            3,
+            4,
+            3,
+            5,
+            4,
+            3,
+            4,
+            3,
+            3,
+            4,
+            4,
+            4,
+            2,
+            5,
+            4,
+            3,
+            5,
+            2,
+            5,
+            4
+        ],
+        fill: false,
+        tension: 0.1
+    }]
+};
+
+const playedGamesGenresData = {
+    labels: [
+        'FPS',
+        'Survival',
+        'Party Games',
+        'RPG',
+        'Altro'
+    ],
+    datasets: [{
+        label: 'Generi',
+        data: [
+            10,
+            8,
+            5,
+            1,
+            3
+        ],
+        fill: true
+    }]
+}
+
+export { playedGamesData, playersPresenceByDayData, playedGamesGenresData, playerTotalPresenceData };
