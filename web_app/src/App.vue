@@ -63,19 +63,31 @@ onMounted(() => {
 </script>
 <template>
   <div class="container">
-    <div>
+    <div style="text-align: center;">
       <h1>Videogame Club Stats</h1>
     </div>
     <div class="graph">
+      <div style="text-align: center;">
+        <h2>Presenza Totali</h2>
+      </div>
       <canvas id="myChart"></canvas>
     </div>
     <div class="graph">
+      <div style="text-align: center;">
+        <h2>Presenze Settimanali</h2>
+      </div>
       <canvas id="myChartLine"></canvas>
     </div>
     <div class="graph">
+      <div style="text-align: center;">
+        <h2>Titoli Giocati</h2>
+      </div>
       <canvas id="myChartDoughnut"></canvas>
     </div>
     <div class="graph">
+      <div style="text-align: center;">
+        <h2>Generi Giocati</h2>
+      </div>
       <canvas id="myChartRadar"></canvas>
     </div>
   </div>
@@ -85,9 +97,13 @@ onMounted(() => {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 .graph {
-  width: 500px;
+  width: 100%;
+  min-width: 350px;
+  max-width: 700px;
   margin-top: 30px;
 }
 </style>
