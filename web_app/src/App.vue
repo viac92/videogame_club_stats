@@ -62,27 +62,32 @@ onMounted(() => {
 });
 </script>
 <template>
-  <div class="canvas-container">
+  <div class="container">
     <div>
       <h1>Videogame Club Stats</h1>
     </div>
-    <div>
+    <div class="graph">
       <canvas id="myChart"></canvas>
     </div>
-    <div>
+    <div class="graph">
       <canvas id="myChartLine"></canvas>
     </div>
-    <div>
+    <div class="graph">
       <canvas id="myChartDoughnut"></canvas>
     </div>
-    <div>
+    <div class="graph">
       <canvas id="myChartRadar"></canvas>
     </div>
   </div>
 </template>
 <style scoped>
-canvas {
-    width: 100%;
-    object-fit: contain;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.graph {
+  width: 500px;
+  margin-top: 30px;
 }
 </style>
