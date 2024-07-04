@@ -129,7 +129,7 @@ const playedGamesGenresData = {
         'Altro'
     ],
     datasets: [{
-        label: 'Generi',
+        label: 'Giocate',
         data: [
             10,
             8,
