@@ -30,13 +30,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: move to directory
+        run: cd web_app  
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'npm'
-      - name: move to directory
-        run: cd web_app
       - name: Install dependencies
         run: npm ci
       - name: Build
