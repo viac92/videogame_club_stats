@@ -25,7 +25,7 @@ I giocatori attualmente presenti sono:
 - Olly
 
 
-## Presenze Settimanli
+## Presenze Settimanali
 
 Il grafico mostra il numero di giocatori presenti per ogni appuntamento settimanale.
 
