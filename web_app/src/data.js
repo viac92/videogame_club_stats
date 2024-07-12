@@ -40,7 +40,7 @@ const playedGamesData = {
         'Project Zomboid',
         'Warhammer 40k: Darktide',
         'Crusader Kings 3',
-        'Age of Empires 4,
+        'Age of Empires 4
     ],
     datasets: [{
         label: 'Giocate',
