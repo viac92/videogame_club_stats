@@ -10,12 +10,12 @@ const playerTotalPresenceData = {
     datasets: [{
         label: 'Presenze',
         data: [
-            31,
-            26,
+            32,
+            27,
             25,
             20,
             13,
-            9
+            10
         ],
         borderWidth: 3
     }]
@@ -26,11 +26,11 @@ const playedGamesData = {
         'Halo Infinite',
         'Valheim',
         'The Finals',
+        'Age of Empires 4',
         'Deep Rock Galactic',
         'Lego Fortnite',
         'PlateUp!',
         'Moving Out 2',
-        'Age of Empires 4',
         'Helldivers 2',
         'Baldur\'s Gate 3',
         'Chivalry 2',
@@ -44,7 +44,7 @@ const playedGamesData = {
     ],
     datasets: [{
         label: 'Giocate',
-        data: [4, 4, 3, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        data: [4, 4, 3, 3, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1],
         hoverOffset: 4
     }]
 };
@@ -81,7 +81,8 @@ const labelsPlayDays = [
     '03/07/2024',
     '10/07/2024',
     '17/07/2024',
-    '24/07/2024'
+    '24/07/2024',
+    '31/07/2024'
 ];
 
 const playersPresenceByDayData = {
@@ -120,6 +121,7 @@ const playersPresenceByDayData = {
             5,
             4,
             5,
+            3,
             3
         ],
         fill: false,
@@ -143,7 +145,7 @@ const playedGamesGenresData = {
             8,
             5,
             2,
-            2,
+            3,
             4
         ],
         fill: true
