@@ -11,8 +11,8 @@ const playerTotalPresenceData = {
         label: 'Presenze',
         data: [
             33,
-            27,
             26,
+            27,
             21,
             14,
             10
