@@ -10,12 +10,12 @@ const playerTotalPresenceData = {
     datasets: [{
         label: 'Presenze',
         data: [
-            33,
-            26,
+            34,
+            27,
             27,
             21,
             14,
-            10
+            11
         ],
         borderWidth: 3
     }]
@@ -40,11 +40,12 @@ const playedGamesData = {
         'Palworld',
         'Project Zomboid',
         'Warhammer 40k: Darktide',
-        'Crusader Kings 3'
+        'Crusader Kings 3',
+        'Age of Mythology: Retold'
     ],
     datasets: [{
         label: 'Giocate',
-        data: [4, 4, 3, 3, 3, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        data: [4, 4, 3, 3, 3, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
         hoverOffset: 4
     }]
 };
@@ -83,7 +84,8 @@ const labelsPlayDays = [
     '17/07/2024',
     '24/07/2024',
     '31/07/2024',
-    '28/08/2024'
+    '28/08/2024',
+    '04/09/2024'
 ];
 
 const playersPresenceByDayData = {
@@ -124,7 +126,8 @@ const playersPresenceByDayData = {
             5,
             3,
             3,
-            4
+            4,
+            3
         ],
         fill: false,
         tension: 0.1
@@ -147,7 +150,7 @@ const playedGamesGenresData = {
             8,
             5,
             2,
-            3,
+            4,
             4
         ],
         fill: true
