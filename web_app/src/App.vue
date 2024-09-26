@@ -28,6 +28,21 @@ const playedGameConfig = {
 const playersPresenceByDayConfig = {
   type: 'line',
   data: playersPresenceByDayData,
+  options: {
+    scales: {
+      y: {
+        ticks: {
+          // Funzione di callback per i ticks
+          callback: function(value) {
+            // Mostra solo i valori interi (nascondendo quindi 2.5, 2.1, ecc.)
+            if (Number.isInteger(value)) {
+            return value;
+            }
+          }
+        }
+      }
+    }
+  }
 };
 
 const playedGamesGenresConfig = {
