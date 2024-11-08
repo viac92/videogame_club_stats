@@ -10,12 +10,12 @@ const playerTotalPresenceData = {
     datasets: [{
         label: 'Presenze',
         data: [
-            41,
+            42,
+            36,
             35,
-            34,
-            28,
-            20,
-            14
+            29,
+            21,
+            15
         ],
         borderWidth: 3
     }]
@@ -46,7 +46,7 @@ const playedGamesData = {
     ],
     datasets: [{
         label: 'Giocate',
-        data: [10, 4, 3, 3, 3, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        data: [11, 4, 3, 3, 3, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
         hoverOffset: 4
     }]
 };
@@ -94,7 +94,8 @@ const labelsPlayDays = [
     '09/10/2024',
     '16/10/2024',
     '23/10/2024',
-    '30/10/2024'
+    '30/10/2024',
+    '6/11/2024'
 ];
 
 const playersPresenceByDayData = {
@@ -144,7 +145,8 @@ const playersPresenceByDayData = {
             6,
             4,
             5,
-            4
+            4,
+            6
         ],
         fill: false,
         tension: 0.1
@@ -163,7 +165,7 @@ const playedGamesGenresData = {
     datasets: [{
         label: 'Giocate',
         data: [
-            19,
+            20,
             8,
             5,
             2,
