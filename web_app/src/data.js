@@ -10,12 +10,12 @@ const playerTotalPresenceData = {
     datasets: [{
         label: 'Presenze',
         data: [
-            42,
+            43,
+            37,
             36,
-            35,
-            29,
+            30,
             21,
-            15
+            16
         ],
         borderWidth: 3
     }]
@@ -42,11 +42,12 @@ const playedGamesData = {
         'Project Zomboid',
         'Crusader Kings 3',
         'Age of Mythology: Retold',
-        'Call od Duty: Warzone'
+        'Call od Duty: Warzone',
+        'Fallout 76'
     ],
     datasets: [{
         label: 'Giocate',
-        data: [11, 4, 3, 3, 3, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        data: [11, 4, 3, 3, 3, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
         hoverOffset: 4
     }]
 };
@@ -95,7 +96,8 @@ const labelsPlayDays = [
     '16/10/2024',
     '23/10/2024',
     '30/10/2024',
-    '6/11/2024'
+    '6/11/2024',
+    13/11/2024
 ];
 
 const playersPresenceByDayData = {
@@ -146,7 +148,8 @@ const playersPresenceByDayData = {
             4,
             5,
             4,
-            6
+            6,
+            5
         ],
         fill: false,
         tension: 0.1
@@ -168,7 +171,7 @@ const playedGamesGenresData = {
             20,
             8,
             5,
-            2,
+            3,
             4,
             4
         ],
