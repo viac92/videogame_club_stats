@@ -46,7 +46,7 @@ const playedGamesData = {
         'Age of Mythology: Retold',
         'Call od Duty: Warzone',
         'Fallout 76',
-        'Call of Duty: Black Ops 6
+        'Call of Duty: Black Ops 6'
     ],
     datasets: [{
         label: 'Giocate',
