@@ -175,7 +175,7 @@ const playedGamesGenresData = {
         'Party Games',
         'RPG',
         'RTS',
-        'Corse'
+        'Corse',
         'Altro'
     ],
     datasets: [{
