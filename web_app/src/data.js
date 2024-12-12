@@ -11,13 +11,13 @@ const playerTotalPresenceData = {
     datasets: [{
         label: 'Presenze',
         data: [
-            46,
+            47,
+            41,
             40,
-            39,
-            31,
-            24,
-            19,
-            3
+            32,
+            25,
+            20,
+            4
         ],
         borderWidth: 3
     }]
@@ -47,10 +47,11 @@ const playedGamesData = {
         'Age of Mythology: Retold',
         'Call od Duty: Warzone',
         'Fallout 76',
+        'Hotwheels Unleashed 2'
     ],
     datasets: [{
         label: 'Giocate',
-        data: [12, 4, 3, 3, 3, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        data: [12, 4, 3, 3, 3, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
         hoverOffset: 4
     }]
 };
@@ -103,7 +104,8 @@ const labelsPlayDays = [
     '13/11/2024',
     '20/11/2024',
     '27/11/2024',
-    '04/12/2024'
+    '04/12/2024',
+    '11/12/2024'
 ];
 
 const playersPresenceByDayData = {
@@ -158,7 +160,8 @@ const playersPresenceByDayData = {
             5,
             6,
             7,
-            6
+            6,
+            7
         ],
         fill: false,
         tension: 0.1
@@ -172,6 +175,7 @@ const playedGamesGenresData = {
         'Party Games',
         'RPG',
         'RTS',
+        'Corse'
         'Altro'
     ],
     datasets: [{
@@ -182,7 +186,8 @@ const playedGamesGenresData = {
             5,
             3,
             4,
-            4
+            1,
+            4,
         ],
         fill: true
     }]
