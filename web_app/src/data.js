@@ -13,11 +13,11 @@ const playerTotalPresenceData = {
         data: [
             47,
             41,
-            40,
-            32,
+            41,
+            33,
             25,
             20,
-            4
+            5
         ],
         borderWidth: 3
     }]
@@ -30,9 +30,9 @@ const playedGamesData = {
         'The Finals',
         'Age of Empires 4',
         'Deep Rock Galactic',
+        'Moving Out 2',
         'Lego Fortnite',
         'PlateUp!',
-        'Moving Out 2',
         'Helldivers 2',
         'Warhammer 40k: Darktide',
         'Call of Duty: Black Ops 6',
@@ -51,7 +51,7 @@ const playedGamesData = {
     ],
     datasets: [{
         label: 'Giocate',
-        data: [12, 4, 3, 3, 3, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        data: [12, 4, 3, 3, 3, 3, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
         hoverOffset: 4
     }]
 };
@@ -105,7 +105,8 @@ const labelsPlayDays = [
     '20/11/2024',
     '27/11/2024',
     '04/12/2024',
-    '11/12/2024'
+    '11/12/2024',
+    '18/12/2024'
 ];
 
 const playersPresenceByDayData = {
@@ -161,7 +162,8 @@ const playersPresenceByDayData = {
             6,
             7,
             6,
-            7
+            7,
+            4
         ],
         fill: false,
         tension: 0.1
@@ -183,7 +185,7 @@ const playedGamesGenresData = {
         data: [
             23,
             8,
-            5,
+            6,
             3,
             4,
             1,
