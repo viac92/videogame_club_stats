@@ -37,7 +37,7 @@ const playedGamesData = {
         'Warhammer 40k: Darktide',
         'Call of Duty: Black Ops 6',
         'Hotwheels Unleashed 2',
-        'Lonely Mountains: Snow Riders'
+        'Lonely Mountains: Snow Riders',
         'Baldur\'s Gate 3',
         'Chivalry 2',
         'Clone Drone in the Danger Zone',
