@@ -11,13 +11,13 @@ const playerTotalPresenceData = {
     datasets: [{
         label: 'Presenze',
         data: [
-            55,
-            49,
-            47,
-            41,
-            30,
-            26,
-            12
+            58,
+            51,
+            50,
+            43,
+            32,
+            28,
+            15
         ],
         borderWidth: 3
     }]
@@ -38,6 +38,7 @@ const playedGamesData = {
         'Call of Duty: Black Ops 6',
         'Hotwheels Unleashed 2',
         'Lonely Mountains: Snow Riders',
+        'Sea of Thieves',
         'Baldur\'s Gate 3',
         'Chivalry 2',
         'Clone Drone in the Danger Zone',
@@ -51,11 +52,11 @@ const playedGamesData = {
         'Fallout 76',
         'STAR WARS: BATTLEFRONT 2',
         'Core Keeper',
-        'Forza Horizon 5'
+        'Forza Horizon 5',
     ],
     datasets: [{
         label: 'Giocate',
-        data: [14, 4, 4, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        data: [15, 4, 4, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
         hoverOffset: 4
     }]
 };
@@ -119,7 +120,10 @@ const labelsPlayDays = [
     '19/02/2025',
     '26/02/2025',
     '05/03/2025',
-    '12/03/2025'
+    '12/03/2025',
+    '19/03/2025',
+    '26/03/2025',
+    '02/04/2025'
 ];
 
 const playersPresenceByDayData = {
@@ -185,7 +189,10 @@ const playersPresenceByDayData = {
             7,
             5,
             4,
-            6
+            6,
+            6,
+            6,
+            5
         ],
         fill: false,
         tension: 0.1
@@ -205,13 +212,13 @@ const playedGamesGenresData = {
     datasets: [{
         label: 'Giocate',
         data: [
-            27,
+            28,
             9,
             6,
             3,
             4,
             5,
-            4,
+            6,
         ],
         fill: true
     }]
