@@ -11,12 +11,12 @@ const playerTotalPresenceData = {
     datasets: [{
         label: 'Presenze',
         data: [
-            58,
-            51,
+            59,
+            52,
             50,
-            43,
+            44,
             32,
-            28,
+            29,
             15
         ],
         borderWidth: 3
@@ -31,10 +31,10 @@ const playedGamesData = {
         'The Finals',
         'Age of Empires 4',
         'Moving Out 2',
+        'Warhammer 40k: Darktide',
         'Lego Fortnite',
         'PlateUp!',
         'Helldivers 2',
-        'Warhammer 40k: Darktide',
         'Call of Duty: Black Ops 6',
         'Hotwheels Unleashed 2',
         'Lonely Mountains: Snow Riders',
@@ -56,7 +56,7 @@ const playedGamesData = {
     ],
     datasets: [{
         label: 'Giocate',
-        data: [15, 4, 4, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        data: [15, 4, 4, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
         hoverOffset: 4
     }]
 };
@@ -123,7 +123,8 @@ const labelsPlayDays = [
     '12/03/2025',
     '19/03/2025',
     '26/03/2025',
-    '02/04/2025'
+    '02/04/2025',
+    '09/04/2025'
 ];
 
 const playersPresenceByDayData = {
@@ -192,7 +193,8 @@ const playersPresenceByDayData = {
             6,
             6,
             6,
-            5
+            5,
+            4
         ],
         fill: false,
         tension: 0.1
@@ -212,7 +214,7 @@ const playedGamesGenresData = {
     datasets: [{
         label: 'Giocate',
         data: [
-            28,
+            29,
             9,
             6,
             3,
