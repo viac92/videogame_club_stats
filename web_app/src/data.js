@@ -13,11 +13,11 @@ const playerTotalPresenceData = {
         data: [
             60,
             53,
-            51,
+            52,
             45,
             33,
-            30,
-            16
+            31,
+            17
         ],
         borderWidth: 3
     }]
@@ -53,10 +53,11 @@ const playedGamesData = {
         'STAR WARS: BATTLEFRONT 2',
         'Core Keeper',
         'Forza Horizon 5',
+        'Orcs Must Die'
     ],
     datasets: [{
         label: 'Giocate',
-        data: [16, 4, 4, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        data: [16, 4, 4, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
         hoverOffset: 4
     }]
 };
@@ -125,7 +126,8 @@ const labelsPlayDays = [
     '26/03/2025',
     '02/04/2025',
     '09/04/2025',
-    '16/04/2025'
+    '16/04/2025',
+    '23/04/2025'
 ];
 
 const playersPresenceByDayData = {
@@ -196,7 +198,8 @@ const playersPresenceByDayData = {
             6,
             5,
             4,
-            7
+            7,
+            3
         ],
         fill: false,
         tension: 0.1
@@ -222,7 +225,7 @@ const playedGamesGenresData = {
             3,
             4,
             5,
-            6,
+            7,
         ],
         fill: true
     }]
