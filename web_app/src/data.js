@@ -53,7 +53,7 @@ const playedGamesData = {
         'STAR WARS: BATTLEFRONT 2',
         'Core Keeper',
         'Forza Horizon 5',
-        'Orcs Must Die'
+        'Orcs Must Die',
         'GTA V'
     ],
     datasets: [{
