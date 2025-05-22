@@ -4,20 +4,20 @@ const playerTotalPresenceData = {
         'Rose',
         'Forn',
         'Ale',
-        'Nixon',
         'Olly',
+        'Nixon',
         'Melissa'
     ],
     datasets: [{
         label: 'Presenze',
         data: [
-            62,
-            54,
-            54,
-            46,
+            63,
+            55,
+            55,
+            47,
+            34,
             33,
-            32,
-            19
+            21
         ],
         borderWidth: 3
     }]
@@ -39,6 +39,7 @@ const playedGamesData = {
         'Hotwheels Unleashed 2',
         'Lonely Mountains: Snow Riders',
         'Sea of Thieves',
+        'Core Keeper',
         'Baldur\'s Gate 3',
         'Chivalry 2',
         'Clone Drone in the Danger Zone',
@@ -51,14 +52,14 @@ const playedGamesData = {
         'Call od Duty: Warzone',
         'Fallout 76',
         'STAR WARS: BATTLEFRONT 2',
-        'Core Keeper',
         'Forza Horizon 5',
         'Orcs Must Die',
-        'GTA V'
+        'GTA V',
+        '33 Immortals'
     ],
     datasets: [{
         label: 'Giocate',
-        data: [16, 4, 4, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        data: [16, 4, 4, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
         hoverOffset: 4
     }]
 };
@@ -130,7 +131,9 @@ const labelsPlayDays = [
     '16/04/2025',
     '23/04/2025',
     '30/04/2025',
-    '07/05/2025'
+    '07/05/2025',
+    '14/05/2025',
+    '21/05/2025'
 ];
 
 const playersPresenceByDayData = {
@@ -204,6 +207,8 @@ const playersPresenceByDayData = {
             7,
             3,
             4,
+            5,
+            3,
             5
         ],
         fill: false,
@@ -225,12 +230,12 @@ const playedGamesGenresData = {
         label: 'Giocate',
         data: [
             30,
-            9,
+            10,
             6,
             3,
             4,
             5,
-            9,
+            10,
         ],
         fill: true
     }]
