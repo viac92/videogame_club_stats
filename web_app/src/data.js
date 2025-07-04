@@ -17,7 +17,7 @@ const playerTotalPresenceData = {
             51,
             37,
             33,
-            25
+            25,
         ],
         borderWidth: 3
     }]
