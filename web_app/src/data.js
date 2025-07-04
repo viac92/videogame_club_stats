@@ -11,13 +11,13 @@ const playerTotalPresenceData = {
     datasets: [{
         label: 'Presenze',
         data: [
-            64,
-            56,
-            56,
-            48,
-            34,
+            66,
+            60,
+            59,
+            51,
+            37,
             33,
-            22
+            25
         ],
         borderWidth: 3
     }]
@@ -26,12 +26,12 @@ const playerTotalPresenceData = {
 const playedGamesData = {
     labels: [
         'Halo Infinite',
-        'Valheim',
         'Deep Rock Galactic',
+        'Valheim',
+        'Warhammer 40k: Darktide',
         'The Finals',
         'Age of Empires 4',
         'Moving Out 2',
-        'Warhammer 40k: Darktide',
         'Helldivers 2',        
         'Lego Fortnite',
         'PlateUp!',
@@ -56,10 +56,12 @@ const playedGamesData = {
         'Forza Horizon 5',
         'Orcs Must Die',
         'GTA V',
+        '33 Immortals',
+        'Golf With Your Friends'
     ],
     datasets: [{
         label: 'Giocate',
-        data: [16, 4, 4, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        data: [16, 5, 4, 4, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
         hoverOffset: 4
     }]
 };
@@ -134,7 +136,11 @@ const labelsPlayDays = [
     '07/05/2025',
     '14/05/2025',
     '21/05/2025',
-    '28/05/2025'
+    '28/05/2025',
+    '04/06/2025',
+    '18/06/2025',
+    '25/06/2025',
+    '02/07/2025'
 ];
 
 const playersPresenceByDayData = {
@@ -211,7 +217,11 @@ const playersPresenceByDayData = {
             5,
             3,
             5,
-            5
+            5,
+            4,
+            4,
+            4,
+            6
         ],
         fill: false,
         tension: 0.1
@@ -231,13 +241,13 @@ const playedGamesGenresData = {
     datasets: [{
         label: 'Giocate',
         data: [
-            30,
+            32,
             10,
-            6,
+            7,
             3,
             4,
             5,
-            11,
+            12,
         ],
         fill: true
     }]
