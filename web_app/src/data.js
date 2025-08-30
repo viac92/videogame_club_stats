@@ -11,13 +11,13 @@ const playerTotalPresenceData = {
     datasets: [{
         label: 'Presenze',
         data: [
+            72,
             66,
-            60,
-            59,
-            51,
-            37,
-            33,
-            25,
+            65,
+            58,
+            40,
+            34,
+            30,
         ],
         borderWidth: 3
     }]
@@ -29,18 +29,20 @@ const playedGamesData = {
         'Deep Rock Galactic',
         'Valheim',
         'Warhammer 40k: Darktide',
+        'Helldivers 2',
         'The Finals',
         'Age of Empires 4',
         'Moving Out 2',
-        'Helldivers 2',        
+        'Rematch',
+        'Lonely Mountains: Snow Riders',
         'Lego Fortnite',
         'PlateUp!',
         'Call of Duty: Black Ops 6',
         'Hotwheels Unleashed 2',
-        'Lonely Mountains: Snow Riders',
         'Sea of Thieves',
         'Core Keeper',
         'GTA V',
+        'Abiotic Factory',
         'Baldur\'s Gate 3',
         'Chivalry 2',
         'Clone Drone in the Danger Zone',
@@ -57,11 +59,12 @@ const playedGamesData = {
         'Orcs Must Die',
         'GTA V',
         '33 Immortals',
-        'Golf With Your Friends'
+        'Golf With Your Friends',
+        'Tony Hawk\'s Pro Skater 3 + 4'
     ],
     datasets: [{
         label: 'Giocate',
-        data: [16, 5, 4, 4, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        data: [16, 5, 4, 4, 4, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
         hoverOffset: 4
     }]
 };
@@ -140,7 +143,16 @@ const labelsPlayDays = [
     '04/06/2025',
     '18/06/2025',
     '25/06/2025',
-    '02/07/2025'
+    '02/07/2025',
+    '09/07/2025',
+    '16/07/2025',
+    '23/07/2025',
+    '30/07/2025',
+    '06/08/2025',
+    '13/08/2025',
+    '20/08/2025',
+    '27/08/2025'
+    
 ];
 
 const playersPresenceByDayData = {
@@ -221,7 +233,15 @@ const playersPresenceByDayData = {
             4,
             4,
             4,
-            6
+            6,
+            5,
+            3,
+            5,
+            6,
+            2,
+            3,
+            5,
+            5
         ],
         fill: false,
         tension: 0.1
@@ -241,13 +261,13 @@ const playedGamesGenresData = {
     datasets: [{
         label: 'Giocate',
         data: [
-            32,
-            10,
+            33,
+            12,
             7,
             3,
             4,
-            5,
-            12
+            6,
+            17
         ],
         fill: true
     }]
