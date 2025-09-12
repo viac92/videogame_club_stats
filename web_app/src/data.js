@@ -11,13 +11,13 @@ const playerTotalPresenceData = {
     datasets: [{
         label: 'Presenze',
         data: [
-            72,
+            74,
+            68,
             66,
-            65,
-            58,
+            59,
             40,
             34,
-            30,
+            32,
         ],
         borderWidth: 3
     }]
@@ -43,6 +43,7 @@ const playedGamesData = {
         'Core Keeper',
         'GTA V',
         'Abiotic Factory',
+        'Fall Guys',
         'Baldur\'s Gate 3',
         'Chivalry 2',
         'Clone Drone in the Danger Zone',
@@ -64,7 +65,7 @@ const playedGamesData = {
     ],
     datasets: [{
         label: 'Giocate',
-        data: [16, 5, 4, 4, 4, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+        data: [16, 5, 4, 4, 4, 3, 3, 3, 3, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
         hoverOffset: 4
     }]
 };
@@ -151,8 +152,9 @@ const labelsPlayDays = [
     '06/08/2025',
     '13/08/2025',
     '20/08/2025',
-    '27/08/2025'
-    
+    '27/08/2025',
+    '03/09/2025',
+    '10/09/2025'
 ];
 
 const playersPresenceByDayData = {
@@ -241,7 +243,9 @@ const playersPresenceByDayData = {
             2,
             3,
             5,
-            5
+            5,
+            4,
+            4
         ],
         fill: false,
         tension: 0.1
@@ -263,7 +267,7 @@ const playedGamesGenresData = {
         data: [
             33,
             12,
-            7,
+            9,
             3,
             4,
             6,
